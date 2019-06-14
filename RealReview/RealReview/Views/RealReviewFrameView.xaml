@@ -8,14 +8,15 @@
         mc:Ignorable="d"
         Title="Real Review" Height="550" Width="525" WindowState="Maximized"  Background="#D3D3D3" x:Name="WinRealview">
     <Window.Resources>
-        <local:RowNumberConverter x:Key="RowNumberConverter"></local:RowNumberConverter>
         <Style TargetType="TextBlock">
             <Setter Property="TextAlignment" Value="Left"></Setter>
         </Style>
             <LinearGradientBrush EndPoint="0.504,1.5" StartPoint="0.504,0.03" x:Key="GradientBorder">
                 <GradientStop Color="#FFFFC934" Offset="0"/>
                 <GradientStop Color="#FFFFFFFF" Offset="0.567"/>
-            </LinearGradientBrush>
+
+            
+        </LinearGradientBrush>
         <LinearGradientBrush x:Key="ProgressBar">
             <GradientStop Color="Red" Offset="0.0"/>
             <GradientStop Color="Green" Offset="1.0"/>
